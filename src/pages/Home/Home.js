@@ -1,13 +1,12 @@
-import { useState, useEffect } from 'react'
-import BlogList from './BlogList'
-import useFetch from './useFetch'
+import BlogList from '../Blog/BlogList/BlogList'
+import useFetch from '../../hooks/useFetch'
 
 const Home = () => {
   const {
     data: blogs,
     isPending,
     error,
-  } = useFetch('http://localhost:8000/blogs')
+  } = useFetch('/blogs')
 
   return (
     <div className='home'>

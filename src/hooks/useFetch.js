@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { BASE_URL } from '../config/config'
 const useFetch = url => {
   const [data, setData] = useState(null)
   const [isPending, setIsPending] = useState(true)
@@ -7,7 +8,7 @@ const useFetch = url => {
   useEffect(() => {
     setTimeout(() => {
       // 解决组件卸载后仍然更新的问题
-      fetch(url,{signal: abortCont.signal})
+      fetch(BASE_URL + url, { signal: abortCont.signal })
         .then(res => {
           if (!res.ok) {
             throw Error('server or network error')
@@ -35,4 +36,3 @@ const useFetch = url => {
 }
 
 export default useFetch
-

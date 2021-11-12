@@ -16,7 +16,6 @@
     "remark-gfm": "^3.0.1",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://http://139.196.47.8:5000/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

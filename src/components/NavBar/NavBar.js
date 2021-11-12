@@ -8,7 +8,8 @@ const NavBar = () => {
       </Link>
       <div className='links'>
         <Link to='/'>首页</Link>
-        <Link to='/talk'>瞎逼逼</Link>
+        <Link to='/category'>分类</Link>
+        {/* <Link to='/talk'>瞎逼逼</Link> */}
         <Link to='/about'>关于我</Link>
       </div>
     </nav>

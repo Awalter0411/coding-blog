@@ -15,3 +15,34 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.code {
+  line-height: 40px;
+}
+
+.code h1 {
+color: #f1356d;
+}
+.code h2{
+ color: #f1356d;
+}
+
+.code h3{
+ color: #f1356d;
+}
+.code h4{
+ color: #f1356d;
+}
+.code h5{
+ color: #f1356d;
+}
+.code h6{
+ color: #f1356d;
+}
+.code strong{
+  color: #f1356d;
+}
+
+.code pre div{
+  line-height: 32px !important;
+}

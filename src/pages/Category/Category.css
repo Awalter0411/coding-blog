@@ -1,0 +1,13 @@
+a{
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+a:hover{
+  color: #f1356d;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 20px;
+}

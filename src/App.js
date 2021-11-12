@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar/NavBar'
 import Home from './pages/Home/Home'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {  Routes, Route, HashRouter } from 'react-router-dom'
 import BlogDetail from './pages/Blog/BlogDetail/BlogDetail'
 import NotFound from './pages/NotFound/NotFound'
 import About from './pages/About/About'
@@ -8,7 +8,7 @@ import Talk from './pages/Talk/Talk'
 import Category from './pages/Category/Category'
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='App'>
         <NavBar />
         <div className='content'>
@@ -23,7 +23,7 @@ const App = () => {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

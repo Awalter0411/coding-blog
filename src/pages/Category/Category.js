@@ -8,7 +8,7 @@ const Category = () => {
     request
       .get(
         '/categories/list/' +
-          JSON.parse(localStorage.getItem('coding-blog')).username
+         'admin' 
       )
       .then(res => {
         console.log(res.data)

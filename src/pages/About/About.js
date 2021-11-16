@@ -10,7 +10,7 @@ const About = () => {
     request
       .get(
         '/users/userInfo/' +
-          JSON.parse(localStorage.getItem('coding-blog')).username
+          'admin'
       )
       .then(res => {
         console.log(res.data)
